@@ -1,0 +1,43 @@
+section{
+    border: 10px solid black;
+    height: 600px;
+    width: 500px;
+    border-width: thin;
+
+}
+.static
+{
+    font-size: xx-large;
+    background-color:orange;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    position: static;
+}
+.relative
+{
+    font-size: xx-large;
+    background-color: grey;
+    font-size: xx-large;
+    text-align: center; 
+    margin: left;
+
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 250px;
+}
+.fixed
+{
+
+    font-size: xx-large;
+    background-color:green;
+    font-size: xx-large;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    position:fixed;
+    left:300px;  
+}
