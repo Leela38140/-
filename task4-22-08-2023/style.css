@@ -1,0 +1,35 @@
+.container{
+    position: relative;
+    border: 5px solid green;
+    width: 1200px;
+    height: 600px;
+}
+.box{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-name: moving;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes moving{
+    0%{
+    margin: 0px;
+    }
+    25%{
+        margin:500px 0px 0px 0px;
+    }
+    50%{
+        margin:500px 0px 0px 1100px;
+    }
+    75%{
+        margin: 0px 0px 0px 1100px;
+    }
+    100%{
+        margin:0px;
+    }
+}
